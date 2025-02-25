@@ -44,8 +44,8 @@ const TicketCard = ({ title, image, price, details,iconImage,det }) => {
 
 const TicketPrices = () => {
     return (
-        <section className="container mx-auto  flex flex-col gap-6  px-5 py-16 lg:py-20">
-            <h1 className="text-[70px] lg:text-[96px] font-bold text-green uppercase pb-4 text-center leading-none">TICKET PRICES</h1>
+        <section id="discount" className="container mx-auto  flex flex-col gap-6  px-5 py-16 lg:py-20">
+            <h1 className="text-[70px] lg:text-[80px] font-bold text-green uppercase pb-4 text-center leading-none">TICKET PRICES</h1>
             <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 justify-center w-full">
                 <TicketCard
                     title="ADULTS"

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Parking = () => {
     return (
-        <div className="container mx-auto  flex flex-col gap-6  px-5 py-16 lg:py-20">
+        <div id='directions' className="container mx-auto  flex flex-col gap-6  px-5 py-16 lg:py-20">
             {/* Header */}
-            <h1 className="text-[70px] lg:text-[96px] font-bold text-green uppercase pb-4 leading-none text-center mt-10">PARKING</h1>
+            <h1 className="text-[70px] lg:text-[80px] font-bold text-green uppercase pb-4 leading-none text-center mt-10">PARKING</h1>
 
             {/* Google Map Embed */}
             <div className="w-full max-w-3xl mt-6 mx-auto">
