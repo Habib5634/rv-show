@@ -7,9 +7,16 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'herobg': "url('/assets/herobg.png')",
+        
+               
+
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "green":'#295A4A'
       },
     },
   },
