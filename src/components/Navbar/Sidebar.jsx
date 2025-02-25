@@ -53,7 +53,7 @@ export default function Sidebar() {
                     <div onClick={() => handleScroll('gallery')} className="hover:text-blue-500 flex items-center gap-6 cursor-pointer"><img src="/assets/gallery.png" alt="" />Gallery</div>
                     <div onClick={() => handleScroll('dealers')} className="hover:text-blue-500 flex items-center gap-6 cursor-pointer"><img src="/assets/dealers.png" alt="" />Dealers</div>
                     <div onClick={() => handleScroll('camp')} className="hover:text-blue-500 flex items-center gap-6 cursor-pointer"><img src="/assets/camp.png" alt="" />Campgrounds</div>
-                    <div onClick={() => handleScroll('per')} className="hover:text-blue-500 flex items-center gap-6 cursor-pointer"><img src="/assets/pet.png" alt="" />Pet Policy</div>
+                    <div  onClick={() => window.open('/assets/pet-policy.pdf', '_blank')} className="hover:text-blue-500 flex items-center gap-6 cursor-pointer"><img src="/assets/pet.png" alt="" />Pet Policy</div>
                 </nav>
             </motion.div>
         </div>
