@@ -42,7 +42,7 @@ const Reasons = () => {
           <img
             src="/assets/reasons.png" // Update with correct image path
             alt="RV Show"
-            className="w-full rounded-lg shadow-lg max-h-[600px]"
+            className="w-full rounded-lg shadow-lg max-h-[700px] h-full"
           />
         </div>
 
